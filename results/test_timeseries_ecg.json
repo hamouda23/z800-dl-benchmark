@@ -1,0 +1,45 @@
+[
+  {
+    "timestamp": "2026-04-19 02:03:09",
+    "tensorflow": "2.15.0",
+    "ecg_params": {
+      "sequence_len": 500,
+      "n_features": 12,
+      "n_classes": 5
+    },
+    "models": {
+      "1D-CNN": {
+        "params": 178629,
+        "elapsed_seconds": 12.02,
+        "test_accuracy": 100.0,
+        "test_loss": 0.0016,
+        "vram_peak_gb": 6.33,
+        "epochs": 5
+      },
+      "LSTM": {
+        "params": 126085,
+        "elapsed_seconds": 51.16,
+        "test_accuracy": 100.0,
+        "test_loss": 0.0001,
+        "vram_peak_gb": 0.36,
+        "epochs": 5
+      },
+      "GRU": {
+        "params": 96261,
+        "elapsed_seconds": 50.21,
+        "test_accuracy": 100.0,
+        "test_loss": 0.0001,
+        "vram_peak_gb": 0.38,
+        "epochs": 5
+      },
+      "CNN+LSTM": {
+        "params": 82501,
+        "elapsed_seconds": 14.52,
+        "test_accuracy": 100.0,
+        "test_loss": 0.0001,
+        "vram_peak_gb": 0.23,
+        "epochs": 5
+      }
+    }
+  }
+]

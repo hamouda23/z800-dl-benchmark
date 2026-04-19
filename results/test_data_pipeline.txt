@@ -1,0 +1,12 @@
+
+======================================================================
+Run: 2026-04-19 02:15:46
+Batch: 32 | Steps: 100 | Images: 10000
+
+Pipeline                          img/s    Temps  Gain vs naive
+-----------------------------------------------------------------
+1. Naive                            902    3.55s      référence
+2. Prefetch                         992    3.22s          ×1.10
+3. Shuffle+Prefetch                1021    3.13s          ×1.13
+4. Cache+Shuffle+Prefetch          1009    3.17s          ×1.12
+5. map parallèle+Prefetch           479    6.68s          ×0.53

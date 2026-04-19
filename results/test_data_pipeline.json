@@ -1,0 +1,39 @@
+[
+  {
+    "timestamp": "2026-04-19 02:15:46",
+    "tensorflow": "2.15.0",
+    "params": {
+      "n_samples": 10000,
+      "image_size": "224x224x3",
+      "batch_size": 32,
+      "steps": 100
+    },
+    "pipelines": {
+      "naive": {
+        "images_per_s": 902,
+        "elapsed_s": 3.55,
+        "steps": 100
+      },
+      "prefetch": {
+        "images_per_s": 992,
+        "elapsed_s": 3.22,
+        "steps": 100
+      },
+      "shuffle_prefetch": {
+        "images_per_s": 1021,
+        "elapsed_s": 3.13,
+        "steps": 100
+      },
+      "cache_shuffle_prefetch": {
+        "images_per_s": 1009,
+        "elapsed_s": 3.17,
+        "steps": 100
+      },
+      "parallel_map_prefetch": {
+        "images_per_s": 479,
+        "elapsed_s": 6.68,
+        "steps": 100
+      }
+    }
+  }
+]

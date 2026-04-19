@@ -1,0 +1,11 @@
+
+======================================================================
+Run: 2026-04-19 02:20:20
+Images: 256×256 | Batch: 16 | Epochs: 5
+
+Classification pulmonaire :
+  MedCNN          acc=100.00%    326 img/s  VRAM 2.16 GB
+  DenseNet121     acc= 93.50%     38 img/s  VRAM 4.31 GB
+
+Segmentation IRM :
+  U-Net           IoU=0.9203  px_acc=99.97%  VRAM 5.88 GB

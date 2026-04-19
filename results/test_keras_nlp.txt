@@ -1,0 +1,7 @@
+
+==================================================
+Run: 2026-04-19 01:21:20
+Modèle     : bert-base-uncased
+Throughput : 3.94 it/s
+Latence    : 253.64 ms/batch
+VRAM       : 0.41 GB

@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2026-04-19 01:40:06",
+    "tensorflow": "2.15.0",
+    "tests": {
+      "FP32": {
+        "images_per_sec": 101.0,
+        "elapsed_seconds": 31.64,
+        "vram_peak_gb": 3.24,
+        "batch_size": 32,
+        "iterations": 100
+      },
+      "FP16": {
+        "images_per_sec": 107.0,
+        "elapsed_seconds": 30.04,
+        "vram_peak_gb": 2.3,
+        "batch_size": 32,
+        "iterations": 100
+      }
+    },
+    "comparison": {
+      "speedup_percent": 5.9,
+      "vram_saved_gb": 0.94
+    }
+  }
+]

@@ -1,0 +1,8 @@
+
+==================================================
+Run: 2026-04-19 01:16:41
+Modèle     : EfficientNetB0
+FPS (x1)   : 5.46
+Latence    : 183.04 ms/image
+Throughput : 89 img/s (batch=16)
+VRAM       : 0.03 GB

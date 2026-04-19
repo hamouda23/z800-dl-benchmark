@@ -1,0 +1,38 @@
+[
+  {
+    "timestamp": "2026-04-19 01:05:59",
+    "tensorflow": "2.15.0",
+    "inference": {
+      "ResNet50": [
+        {
+          "batch_size": 8,
+          "images_per_sec": 75.0,
+          "vram_peak_gb": 0.19
+        },
+        {
+          "batch_size": 16,
+          "images_per_sec": 151.0,
+          "vram_peak_gb": 0.29
+        },
+        {
+          "batch_size": 32,
+          "images_per_sec": 295.0,
+          "vram_peak_gb": 0.46
+        },
+        {
+          "batch_size": 64,
+          "images_per_sec": 294.0,
+          "vram_peak_gb": 0.81
+        }
+      ]
+    },
+    "training": {
+      "ResNet50": {
+        "images_per_sec": 101.0,
+        "batch_size": 32,
+        "iterations": 100,
+        "vram_peak_gb": 2.89
+      }
+    }
+  }
+]

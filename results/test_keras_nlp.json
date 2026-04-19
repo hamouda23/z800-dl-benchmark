@@ -1,0 +1,12 @@
+[
+  {
+    "timestamp": "2026-04-19 01:21:20",
+    "model": "bert-base-uncased",
+    "tensorflow": "2.15.0",
+    "iterations": 50,
+    "batch_size": 16,
+    "throughput_it_per_s": 3.94,
+    "latency_ms": 253.64,
+    "vram_gb": 0.41
+  }
+]

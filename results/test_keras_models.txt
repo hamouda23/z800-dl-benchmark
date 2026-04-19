@@ -1,0 +1,13 @@
+
+================================================================================
+Run: 2026-04-19 01:05:59
+TensorFlow : 2.15.0
+
+INFERENCE ResNet50:
+  Batch   8 → 75 img/s | VRAM 0.19 GB
+  Batch  16 → 151 img/s | VRAM 0.29 GB
+  Batch  32 → 295 img/s | VRAM 0.46 GB
+  Batch  64 → 294 img/s | VRAM 0.81 GB
+
+ENTRAÎNEMENT ResNet50:
+  101 img/s (batch 32) | VRAM max 2.89 GB

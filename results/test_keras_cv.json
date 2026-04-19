@@ -1,0 +1,17 @@
+[
+  {
+    "timestamp": "2026-04-19 01:16:41",
+    "model": "EfficientNetB0",
+    "tensorflow": "2.15.0",
+    "single_image": {
+      "fps": 5.46,
+      "latency_ms": 183.04,
+      "iterations": 100
+    },
+    "batch_16": {
+      "throughput_images_per_s": 89.0,
+      "iterations": 50,
+      "vram_gb": 0.03
+    }
+  }
+]
